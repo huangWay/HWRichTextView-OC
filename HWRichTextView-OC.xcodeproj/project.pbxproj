@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4572EB1C5A0A4F0096977D /* emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4572EA1C5A0A4F0096977D /* emoji.plist */; };
+		8F4572EE1C5A18080096977D /* HWTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4572ED1C5A18080096977D /* HWTestVC.m */; };
+		8F4572F81C5B55180096977D /* HWEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4572F11C5B55180096977D /* HWEmotion.m */; };
+		8F4572F91C5B55180096977D /* HWEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4572F31C5B55180096977D /* HWEmotionTool.m */; };
+		8F4572FA1C5B55180096977D /* HWMatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4572F51C5B55180096977D /* HWMatchResult.m */; };
+		8F4572FB1C5B55180096977D /* HWRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4572F71C5B55180096977D /* HWRichTextView.m */; };
 		8F99B2781C58A6C3002D5BF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99B2771C58A6C3002D5BF0 /* main.m */; };
 		8F99B27B1C58A6C3002D5BF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99B27A1C58A6C3002D5BF0 /* AppDelegate.m */; };
 		8F99B27E1C58A6C3002D5BF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F99B27D1C58A6C3002D5BF0 /* ViewController.m */; };
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F4572EA1C5A0A4F0096977D /* emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emoji.plist; sourceTree = "<group>"; };
+		8F4572EC1C5A18080096977D /* HWTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTestVC.h; sourceTree = "<group>"; };
+		8F4572ED1C5A18080096977D /* HWTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTestVC.m; sourceTree = "<group>"; };
+		8F4572F01C5B55180096977D /* HWEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWEmotion.h; sourceTree = "<group>"; };
+		8F4572F11C5B55180096977D /* HWEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWEmotion.m; sourceTree = "<group>"; };
+		8F4572F21C5B55180096977D /* HWEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWEmotionTool.h; sourceTree = "<group>"; };
+		8F4572F31C5B55180096977D /* HWEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWEmotionTool.m; sourceTree = "<group>"; };
+		8F4572F41C5B55180096977D /* HWMatchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMatchResult.h; sourceTree = "<group>"; };
+		8F4572F51C5B55180096977D /* HWMatchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWMatchResult.m; sourceTree = "<group>"; };
+		8F4572F61C5B55180096977D /* HWRichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWRichTextView.h; sourceTree = "<group>"; };
+		8F4572F71C5B55180096977D /* HWRichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWRichTextView.m; sourceTree = "<group>"; };
 		8F99B2731C58A6C3002D5BF0 /* HWRichTextView-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWRichTextView-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F99B2771C58A6C3002D5BF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F99B2791C58A6C3002D5BF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F4572EF1C5B55180096977D /* HWRichTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8F4572F01C5B55180096977D /* HWEmotion.h */,
+				8F4572F11C5B55180096977D /* HWEmotion.m */,
+				8F4572F21C5B55180096977D /* HWEmotionTool.h */,
+				8F4572F31C5B55180096977D /* HWEmotionTool.m */,
+				8F4572F41C5B55180096977D /* HWMatchResult.h */,
+				8F4572F51C5B55180096977D /* HWMatchResult.m */,
+				8F4572F61C5B55180096977D /* HWRichTextView.h */,
+				8F4572F71C5B55180096977D /* HWRichTextView.m */,
+			);
+			path = HWRichTextView;
+			sourceTree = "<group>";
+		};
 		8F99B26A1C58A6C3002D5BF0 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +137,10 @@
 				8F99B27A1C58A6C3002D5BF0 /* AppDelegate.m */,
 				8F99B27C1C58A6C3002D5BF0 /* ViewController.h */,
 				8F99B27D1C58A6C3002D5BF0 /* ViewController.m */,
+				8F4572EF1C5B55180096977D /* HWRichTextView */,
+				8F4572EC1C5A18080096977D /* HWTestVC.h */,
+				8F4572ED1C5A18080096977D /* HWTestVC.m */,
+				8F4572EA1C5A0A4F0096977D /* emoji.plist */,
 				8F99B27F1C58A6C3002D5BF0 /* Main.storyboard */,
 				8F99B2821C58A6C3002D5BF0 /* Assets.xcassets */,
 				8F99B2841C58A6C3002D5BF0 /* LaunchScreen.storyboard */,
@@ -244,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F99B2861C58A6C3002D5BF0 /* LaunchScreen.storyboard in Resources */,
+				8F4572EB1C5A0A4F0096977D /* emoji.plist in Resources */,
 				8F99B2831C58A6C3002D5BF0 /* Assets.xcassets in Resources */,
 				8F99B2811C58A6C3002D5BF0 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4572F91C5B55180096977D /* HWEmotionTool.m in Sources */,
 				8F99B27E1C58A6C3002D5BF0 /* ViewController.m in Sources */,
 				8F99B27B1C58A6C3002D5BF0 /* AppDelegate.m in Sources */,
 				8F99B2781C58A6C3002D5BF0 /* main.m in Sources */,
+				8F4572FA1C5B55180096977D /* HWMatchResult.m in Sources */,
+				8F4572F81C5B55180096977D /* HWEmotion.m in Sources */,
+				8F4572FB1C5B55180096977D /* HWRichTextView.m in Sources */,
+				8F4572EE1C5A18080096977D /* HWTestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +538,7 @@
 				8F99B2A21C58A6C3002D5BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F99B2A31C58A6C3002D5BF0 /* Build configuration list for PBXNativeTarget "HWRichTextView-OCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +547,7 @@
 				8F99B2A51C58A6C3002D5BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F99B2A61C58A6C3002D5BF0 /* Build configuration list for PBXNativeTarget "HWRichTextView-OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +556,7 @@
 				8F99B2A81C58A6C3002D5BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
