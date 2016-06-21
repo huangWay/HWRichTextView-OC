@@ -47,6 +47,10 @@ typedef enum : NSUInteger {
 } HWRichTextType;
 
 @interface HWRichTextView : UIView
+/**
+ *  显示文本的控件
+ */
+@property(nonatomic,strong) UITextView *textView;
 
 @property(nonatomic,weak) id<HWRichTextViewDelegate> delegate;
 /**
@@ -82,5 +86,36 @@ typedef enum : NSUInteger {
  *  昵称的颜色
  */
 @property(nonatomic,strong) UIColor *niceColor;
-/************************************************************************/
+/**
+ *  特殊字符串
+ */
+@property(nonatomic,copy) NSString *special_One;
+/**
+ *  特殊字符串颜色
+ */
+@property(nonatomic,strong) UIColor *special_One_Color;
+/**************************其它的富文本属性******************************************/
+/**
+ *  图片
+ */
+@property(nonatomic,strong) NSTextAttachment *attach;
+/**
+ *  其它的富文本属性
+ */
+- (void)addOtherAttributes:(NSDictionary *)attr range:(NSRange)range;
+/**
+ *  获取attributeString，用来计算尺寸
+ *
+ *  @return attributeString
+ */
+- (NSMutableAttributedString *)getAttributeString;
+/**
+ *  手动调用touchbegin里的方法，使得富文本控件可以点击
+ */
+- (void)enableClick:(CGPoint)point;
+@end
+
+@interface HWAttributeModel : NSObject
+@property(nonatomic,strong) NSDictionary *attr;
+@property(nonatomic,assign) NSRange range;
 @end

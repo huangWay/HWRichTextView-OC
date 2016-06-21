@@ -42,7 +42,7 @@
  *  匹配指定字符串
  *
  *  @param specialString 指定字符串
- *  @param string
+ *  @param string 原始字符串
  *
  *  @return HWMatchResult类型的数组
  */
